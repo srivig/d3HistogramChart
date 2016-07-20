@@ -1,9 +1,9 @@
 # d3HistogramChart
 D3 function to draw histogram chart
 
-#### usage
+Note: Doesn't work for d3 version > 3.x. 
 
-initialise:
+#### Usage:
 
 ```javascript
 var randomData = [10,30,33,55,55,33,12,2,3,1], opts, cobj;
