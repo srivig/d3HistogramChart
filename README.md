@@ -50,4 +50,4 @@ cobj.draw()
 TODO
 ----
 - Add labels
-- Tool tips
+- Tooltips
