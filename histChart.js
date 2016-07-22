@@ -87,12 +87,12 @@ _histChart.drawBars = function(){
              .enter()
              .append('g')
 
-  this.bars.append('rect')
-     .attr('x', function(d){return x(d.x); })
-     .attr('y', function(d){return height - y(d.y); })
-     .attr('width', function(d) {return (Math.abs(x(d.dx)))/barWidthRatio; })
-     .attr('height', function(d){return y(d.y); })
-     .attr('fill', barColor);
+ this.bars.append('rect')
+    .attr('x', function(d){ return x(d.x); } )
+    .attr('y', function(d){ return height - y(d.y); } )
+    .attr('width', function(d) { return d.dx*barWidthRatio; } )
+    .attr('height', function(d){ return y(d.y); } )
+    .attr('fill', barColor);
 }
 
 _histChart.init = function(){
