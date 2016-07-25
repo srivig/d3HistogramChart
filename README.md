@@ -51,3 +51,4 @@ TODO
 ----
 - Add labels
 - Tooltips
+- Responsiveness 
